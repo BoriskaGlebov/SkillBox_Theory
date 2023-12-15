@@ -1,0 +1,2 @@
+<class 'ValueError'>Там цифра в документеThu Nov 30 22:04:55 2023
+<class 'ValueError'>Там цифра в документеThu Nov 30 22:05:59 2023
