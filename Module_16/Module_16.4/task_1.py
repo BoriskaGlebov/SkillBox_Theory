@@ -40,9 +40,8 @@ def decorator_for_metods(decorator: Callable) -> Callable:
     return decorate
 
 
-
 @create_time
-@decorator_for_metods(timer)
+# @decorator_for_metods(timer)
 class Function:
     def __init__(self, max_num: int) -> None:
         self.max_num = max_num
@@ -63,12 +62,13 @@ class Function:
 
 
 print('Задача 1. Create time')
-first1 = Function(10000)
-time.sleep(1)
-print(first1.squares_sum())
-print(first1.cubes_sum())
+# first1 = Function(10000)
+first1 = Function
+print(type(first1))
+# time.sleep(1)
+# print(first1.squares_sum())
+# print(first1.cubes_sum())
 
-first2 = Function(20000)
-time.sleep(1)
-first3 = Function(30000)
-
+# first2 = Function(20000)
+# time.sleep(1)
+# first3 = Function(30000)
